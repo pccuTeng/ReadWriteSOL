@@ -56,7 +56,7 @@ public class CES extends Student {
         FileWriter fileWriter = null;
         PrintWriter printWriter = null;
         String record = "";
-        
+        String for_develop_write_file="";
         try {
 			fileWriter = new FileWriter(filepath);
 			printWriter = new PrintWriter(fileWriter);
